@@ -17,11 +17,11 @@ export default class classComponent extends Component {
 
     render() {
         const showFun = () => {
-            this.setState({show : !this.state.show});
+            this.setState({show : !this.state.show});  
         }
 
         const add = () => {
-            this.setState({input : !this.state.input +1});
+            this.setState({input : this.state.input +1});  
         }
 
         return (
